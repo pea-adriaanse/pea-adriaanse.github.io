@@ -86,7 +86,7 @@ Supposedly these exist for use in math, but the addition of Fraktur, with even a
 \r
 ### Solution\r
 \r
-There are of course solutions to this mess. Text shaping engines like [HarfBuzz](https://harfbuzz.github.io/) implement glyph selection and placement, making the web as we know it possible. Even Adobe uses it. Rendering of the actual glyphs can then be performed using a text/font rendering engine like [FreeType](https://freetype.org/).\r
+There are of course solutions to this mess. Thankfully (open source) solutions have existed for years. Text shaping engines like [HarfBuzz](https://harfbuzz.github.io/) for example, even used by Adobe, implement glyph selection and placement. Rendering of the actual glyphs can be performed using a text/font rendering engine like [FreeType](https://freetype.org/). Interestingly both of these are being [rewritten in Rust!](https://behdad.org/text2024/) Their importance and complexity require safety guarantees C(++) couldn't offer.\r
 \r
 ---\r
 \r
