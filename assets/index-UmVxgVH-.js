@@ -43,7 +43,7 @@ Error generating stack: `+e.message+`
 \r
 While working on gui support for my rendering engine, I stumbled upon a surprisingly complex subject: _text rendering_.\r
 \r
-![Sponza Render](/src/assets/posts/TextRendering/render.png#rounded)\r
+![Sponza Render](/images/render.png#rounded)\r
 \r
 ---\r
 \r
@@ -53,7 +53,7 @@ The simplest reasonable approach to rendering text I've found is only supporting
 \r
 Ignoring fonts for a bit, there's already a potential for interesting methods. Take [Valve's Signed Distance Field (SDF) approach](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf) for example (I won't go into detail, and doubt it's unique). Add fonts and kerning to the mix and things are already getting more complex.\r
 \r
-![Kerning](/src/assets/posts/TextRendering/Kerning_EN.svg)\r
+![Kerning](/images/Kerning_EN.svg)\r
 _Kerning example._\r
 \r
 The primary source of this adventure was, however, my stubbornness to support Unicode.\r
@@ -94,5 +94,5 @@ For an additional rant about text rendering, let me refer you to a blogpost by A
 \r
 Since I've already fallen into multiple rabitholes at this point, I'm taking my font rendering engine for granted and constraining myself to simple text, which includes emojis! ✨ (even with colors: yes this was absolutely necessary).\r
 \r
-![meme](/src/assets/posts/TextRendering/user_input.jpeg)\r
-</details>`,Hm={"./assets/posts/TextRendering/TextRendering.md":Vm};function Um(){let e=Object.keys(Hm).map(e=>(0,Co.jsx)(`li`,{className:`post`,children:(0,Co.jsx)(Bm,{content:Hm[e]})},e));return(0,Co.jsxs)(Co.Fragment,{children:[(0,Co.jsxs)(`header`,{children:[(0,Co.jsx)(`img`,{src:y,alt:`profile picture`,id:`profilePicture`}),(0,Co.jsx)(`h1`,{children:`Paul Adriaanse`}),(0,Co.jsxs)(`nav`,{children:[` `,(0,Co.jsxs)(`a`,{href:`https://github.com/pea-adriaanse`,children:[(0,Co.jsxs)(`picture`,{children:[(0,Co.jsx)(`source`,{media:`(prefers-color-scheme: light)`,srcSet:x}),(0,Co.jsx)(`img`,{src:b,alt:`github logo`})]}),`GitHub`]}),(0,Co.jsxs)(`a`,{href:`https://www.linkedin.com/in/paul-adriaanse/`,children:[(0,Co.jsx)(`img`,{src:ee,alt:`linkedin logo`}),`LinkedIn`]})]})]}),(0,Co.jsx)(`main`,{children:(0,Co.jsx)(`ul`,{id:`posts`,children:e})})]})}var Wm=Um;(0,_.createRoot)(document.getElementById(`root`)).render((0,Co.jsx)(v.StrictMode,{children:(0,Co.jsx)(Wm,{})}));
+![meme](/images/user_input.jpeg)\r
+</details>`,Hm={"./assets/posts/TextRendering.md":Vm};function Um(){let e=Object.keys(Hm).map(e=>(0,Co.jsx)(`li`,{className:`post`,children:(0,Co.jsx)(Bm,{content:Hm[e]})},e));return(0,Co.jsxs)(Co.Fragment,{children:[(0,Co.jsxs)(`header`,{children:[(0,Co.jsx)(`img`,{src:y,alt:`profile picture`,id:`profilePicture`}),(0,Co.jsx)(`h1`,{children:`Paul Adriaanse`}),(0,Co.jsxs)(`nav`,{children:[` `,(0,Co.jsxs)(`a`,{href:`https://github.com/pea-adriaanse`,children:[(0,Co.jsxs)(`picture`,{children:[(0,Co.jsx)(`source`,{media:`(prefers-color-scheme: light)`,srcSet:x}),(0,Co.jsx)(`img`,{src:b,alt:`github logo`})]}),`GitHub`]}),(0,Co.jsxs)(`a`,{href:`https://www.linkedin.com/in/paul-adriaanse/`,children:[(0,Co.jsx)(`img`,{src:ee,alt:`linkedin logo`}),`LinkedIn`]})]})]}),(0,Co.jsx)(`main`,{children:(0,Co.jsx)(`ul`,{id:`posts`,children:e})})]})}var Wm=Um;(0,_.createRoot)(document.getElementById(`root`)).render((0,Co.jsx)(v.StrictMode,{children:(0,Co.jsx)(Wm,{})}));
