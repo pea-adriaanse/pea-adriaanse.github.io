@@ -1,0 +1,158 @@
+:root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+#profilePicture {
+  border-radius: 25%;
+  width: max(12vw, 20vh);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+nav {
+  width: 30vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  border-bottom: 1px solid white;
+  ;
+}
+
+nav a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+}
+
+nav a picture,
+nav a img {
+  width: 25px;
+  display: block;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 5px;
+  color: lightskyblue;
+}
+
+header a:hover {
+  border: 2px solid #7b81ff;
+  background-color: #444;
+}
+
+a:hover {
+  color: #7b81ff;
+  text-decoration: underline;
+}
+
+body {
+  min-width: 320px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#posts {
+  padding-left: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 10px;
+}
+
+.post {
+  list-style-type: none;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.post h2 {
+  text-align: center;
+  margin-top: 5px;
+  font-style: italic;
+  color: white;
+  text-decoration: underline solid white 2px;
+}
+
+.post summary {
+  list-style-type: none;
+}
+
+.post details:hover summary h2 {
+  color: #7b81ff;
+  text-decoration-color: #7b81ff;
+}
+
+.post details {
+  width: inherit;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: inherit;
+}
+
+.post details:hover {
+  background-color: #444;
+  border-color: #7b81ff;
+  cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.post img {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%;
+}
+
+.post img[src*="#rounded"] {
+  border-radius: 5px;
+}
+
+.post table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.post td,
+.post th {
+  border: 1px solid white;
+}
+
+.post td {
+  padding: 5px;
+}
+
+@media (prefers-color-scheme: light) {
+  a:hover {
+    background-color: #DDD;
+  }
+}
